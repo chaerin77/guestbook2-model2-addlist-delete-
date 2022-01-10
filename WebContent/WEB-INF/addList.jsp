@@ -49,6 +49,7 @@
 					<td><%=gvo.get(i).getName()%></td>
 					<td><%=gvo.get(i).getRegDate()%></td>
 					<td><a href="/guestbook2/gbc?action=deleteForm&no=<%=gvo.get(i).getNo()%>">삭제</a></td>
+				
 				</tr>
 				<tr>
 					<td colspan="4">
